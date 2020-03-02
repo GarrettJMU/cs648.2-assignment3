@@ -1,0 +1,31 @@
+{
+  "name": "Assignment3",
+  "version": "1.0.0",
+  "description": "CS648.2 Assignment 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "garretthughes3@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "graphql": "^14.6.0",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
