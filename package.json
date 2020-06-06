@@ -16,7 +16,7 @@
   "author": "garretthughes3@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "^2.10.1",
+    "apollo-server-express": "^2.14.2",
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
     "graphql": "^14.6.0",
